@@ -60,11 +60,9 @@ let WATCH_HISTORY = (window.localStorage.getItem("history") || "").split("$$$SHI
 if(WATCH_HISTORY[0] == "") WATCH_HISTORY = []
 
 function PlayVideo(data, show_path){
-    if(TV_MODE){
-        console.log(data)
-    }else{
-        window.location.href = data.replace("load_video_###","")
-    }
+    console.log(data)
+    window.location.href = data.replace("load_video_###","")
+    
     if(WATCH_HISTORY.indexOf(show_path) != -1) {
         WATCH_HISTORY.splice(WATCH_HISTORY.indexOf(show_path), 1)
     }

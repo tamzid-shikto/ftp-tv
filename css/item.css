@@ -1,0 +1,64 @@
+.item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    min-height: 10px;
+    background: none;
+    margin: 10px;
+    border: 0.5px solid rgba(255, 255, 255, 0.231);
+    border-radius: 7.5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 125px;
+    width: 250px;
+    padding: 0;
+    overflow: hidden;
+}
+.item:focus{          
+    background-color: rgba(255, 255, 255, 0.211);
+    border: 2px solid rgba(6, 64, 255, 0.935);
+}
+
+.banner_holder{
+    height: 100%;
+    _aspect-ratio: 0.5;
+}
+.banner_holder img{
+    height: 100%;
+}
+
+.detail_holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.title{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: start;
+    margin-right: 10px;
+}
+.sub-title{
+    font-size: 16px;
+    text-align: start;
+}
+
+.tag{
+    width: 100%;
+    float: right;
+    display: flex;
+    justify-content: end;
+    _transition: 100px 0px;
+}
+.tag span{
+    padding: 3px;
+    color: white;
+    font-size: 10px;
+    _margin-top: 4px;
+}

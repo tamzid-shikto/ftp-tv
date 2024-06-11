@@ -1,0 +1,27 @@
+.bg-color{            
+    background-color: #111111;
+}
+.bg-color-light{            
+    background-color: #222222;
+}
+.blue{            
+    background-color: rgb(8, 39, 238);
+}
+.red{            
+    background-color: rgb(238, 8, 62);
+}
+.green{            
+    background-color: rgb(4, 145, 84);
+}
+.orange{            
+    background-color: rgb(177, 89, 7);
+}
+.cyan{            
+    background-color: rgb(3, 99, 104);
+}
+.purple{            
+    background-color: rgb(109, 5, 120);
+}
+.watched-bg{
+    background-color: rgba(11, 208, 90, 0.469) !important;
+}

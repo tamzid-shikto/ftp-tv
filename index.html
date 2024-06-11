@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/item.css">
+    <link rel="stylesheet" href="css/ep_list.css">
+</head>
+<body style="_background-color: antiquewhite;">
+
+    <div id="splash" class="bg-color">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAXQUlEQVR4nO2dB3hU1bbH56nv3Xd9z+e73ne9n95Lgr1eCyJgRQwlkt5D2qTXSSY99EgIoUmREgy9SItIL5JMEkhvkwREBAVFIEFEiiKYwpn/+/Y5M2fOnDln+iQB2d+3Pj8mJ2bO+c1e/7XWXnuPRHJ33B19OVbPcQ1KT41oD4xKocZnSM+tmOvy3l0ifTA+XzjqxfwJ4467h2bCNSSLNc+wTEzJCWkqmj/mEVQ4OlMKx1OUwqGTUjgexRdPP3sXlo1HadHIBxd+6LPXLyJNxQXBtcAoOXYvHqm6VToQKoUja1SpowqKAXtQ8fx/2/p9/SHH0nyP6eFxiT1iIDzCMrAkzxtX9z6tA4JvlMKhCwqH3L6+n9t2rJztHiyXR18TA0FsclYYvvvsZYMg9ME4Xkapg2tf399tM9bNdH81NydETye4FpeYgMqVb5sFgm+3Sh3bsOepf/T1/fbbUTxv9EOzp/rvF9MJt5AspETIsWeWG7pLHrMKBgtF4UihdMAG5Eru6+v77386ESuuE/6h6TgVGo/fvFJp65rqbhMgnNlyAyUD4iV/9LFyumtoSkr0L8Z04sfpriwMjfWsH2RTKOqI7AzKn3hN8kcbG2a7DiI64RZiQCeS4tGwdhj9oLqmuOsB6V78js2BqEWfzJhDKH38QcmdPjZ+5Pp/RCd8w1NF84lxUXLsWjwSPRyd6F7npAvEXwZq57N2AcKZLd1QOMyX3IkjN1dyz4JpPotCY2WiOkGybZJPXBPIJ658vQ4Xdx3Gr+kf4nf5OPRssL27MjBjLkPxT0/JnTJWFLhJZSkxRnXizLaXBB9IZ40LznVcwfmOi+iufKvXQAiA+RKlDo9LbtexYa7r63kTgr41pBNJsli0rB8q/iDKHsPF76px7sI1XDs6s29glD8N1LsCrfGglNEUalwiJf19dE0dG9U5wXN9Z94Y9+KPnf82N9df4RORCnN0QsiuKzNpGB1nT4Aqf6Z3QZQ9BlWNEw0CbTKtNYf9IunPozPLp0Qjtte95fhYKqMM6cTyAg9c3/+k0Qdyq+IltJ//ngZyo1HauzCqhgHKSF0QGlPGqiT9dWC2+wO/+aboREAnfdNFdeKHbf8SfACdBx/Hjzufw0+7nmOz8CvHV9IwLp060HsgDr0ENI0TBqGx1vj+C6SiYLTrdV5+cC36Q6zZchAhiXk0iISkODStFdYJkmcQUJ5hGSw4H2kapk+JQ2XdlzjfcQndlcN7wT09BdSNBdqSDMPor0BIPpE/MajUW5qOfX7pOkAurdtDf7LPnL+Mttrt6Dz8nv6M+OJxzJkSKKoxdO0qNBvLFuWCUgy0s06M0NcJQ9bSj4CQfGLxdO/5YTFJbD7hHpKFBYEZ2OaXjrzADCRkz0Z99T6c7/iZBkNC1kvf7EJnrRv9EMgDnjYh2CAMrn0yw9M+MCqHiuvE7QDkkwL3CJks5ldDDy9vQjDad7xA33DP4WG4emwpzrf/yIC5cA0XT1egans2/ek3FQixZkOhsUU6EST6wDctCMHoMS4Y4TQW6+YG6/1c1RqPPgWxdpbLkEmZoafdQsUfWIIsDk3rhB/arYpX6Byi/fwPLJg65TfIX7AeHtIck4Bkp4dbD6L8GaDeTVQnbtQnYsTIDzDgOSc4PO+EF4d5Y9hoKfyDI/HdwUSuhvQNkPVzRz1cMCnwENEJ8Xwihc4n+OvYKgGjyp/D6eqZ+PLkORbMvrImk4CQD8OVPZbmIY8L5xMco1pkGPzmGBrGYy+NwQjPBHhNTIP/qgT4TJfDZVwybik1QBJ6F0hxsd+983J9lwRHp9wSzycyTM4nVBzbt/R9eEjHo2DRp6hv+QYbtilMdlstG4bYTSeiQj1oGANfHINRASkI2haHsKoo1kL2x2D9htjeB7J8hkdUUnL0dWM60aHWCXNt6wJns7SDa7Wr3zRDJ142nk+oTbktioZB7B2XGATvi9XCqI5C0rEwZJ0LRvb5YGz/Krp3gKwvcB9qTCfk8mgc3TjYKj/evuMFeIeLu0AxC4hMFawCi+pEq1Ynfm+SYfuKVCyclYbqrXI9IG6urjSMf73pg4AViSwMaXUU0k6HYvyFINZy2oPQ05aIPtWJsJhk7C983ySdMMWqV78Fv4g0s2AYLECK6ISqVYbyTXJI43WLmwfXp7LXdDfLaAEnQJz8EhFWqXVTKSfCdGBorKPNDqJekTv8vo/zfIqCo5IpYzrx24EnbAJCxZ0p21/Ewmm+8A1PMwiiMN+LLqcY1ok3gBZdnTh5IAUZ2ersPzQb7qlL4Rb1If3v8RMy2OsOrpLSMJ4e5Ar/xUksjBhluCCMnI4g3LL1DFmW5ymPS4y7aS+dUJlhpIb15cbB+KJwBIoXONN2cNl7OL55ELpLBpqgE7r5xOUaGZbMSaOjMnIfHvLF8F17BgF7VPBbd5Z+LTUzk71+RUEQDeTV4YEI+kwr5GmndF2VxiadCQFabQSEZNmzJgeWG9WJT1+zOwiVNSagEz1KGXatSoV/JHMfvokzEbqsCQF7KBoGMemum8w9ZmhnSOnqcBrIYKcQVsylVVHI6QgWBPIZEfW2JNsA+Wiq305RnYiV2VQnVPawMuF8ouHzFETLGPfkJp2A+EWlmFHThZB9DAiNZZZ10tekpGfq6MxTL4/Cq+8GYtzmeBpIZEOEIIwJP4Sg6wj5PRvMkDWznZ28OBVVrhVO98bNA+blE71ulUQnonRAnCtLRu4UbTAizduCaeW/YHajCuMrdWEQOAU1XXpAiB3dEY033nODW2waQsujEFkfqa8d7cE4cVTzQbABkLyJwUeEYJAsu88ftsKITjTr6sSvdTIUzU+HRxhzD/5pCzF+5xkahMaivtAFklquwszabjUQrcvi2oo5UfAJS0TQqmhknA7RAjkbgq+OJHCutYHLkgp0Bc6aHNj3D1whYuXPAg2eOg/sVosMB9anIiiGCWM9Y/MgX9eMWfWUDowPa3RhBO5RIb9OCyQ5TRgI164eScLm41HYdSwanRytYjJ1K4FsLHT5C7/RgCRnJiVa/UQn2nbJkZTK3IObdDxi5u9HftVNHRAaS1ToAokvZV4vUAORmQDEoFkLZPOCMQP5s2NRnk/fP3yFcZ1or0jGrDytToROXYfckp8FQRCbUa/CuL26QKZUMz+bVddjEZDuthxcal0OtKWwr1kF5NO5Yx35QMqK3u17AAquTuiuO/zemIyNhWnwkjLv108+D1mfnRQFobG0Cl0Y4Qe0P7MEyLW2eWhoOYOGlrNQtp7C5aNF1gPZ/NHoAXwgX282o/PvkHBjgj10QtUqQ9lGOULi1DoRNRUpK6oxq77HKIxZDSqE7dcFknVYHwhxfaYCaW45xcA4ch7fn7uCsx3X8OuxRdYBKZ7n8g8+kFPFZuw6OjHZtiDKnoCqdhTQxo1cZDjBKXe4heUgas5u5FfeMApCYxN4oW7QXhVmNlgO5ErbAhoGse/OXmHXcH7+ejMAyT0WA9k02/1RPpBvt75i2sOrHQFQv0NV977ddOJSVTLmFWjLHe7yRcjc3WEyCI1FH9QFklLGm0H1DJBEub7Lompl6Dmo+9ql1kIaRuuxdhbG2far6Gkbbx2Qz+d7PWIRkKohwPUToMdvJ6GqsmJd+xCpO+nqRGdzMj5bngbfSHX0FJMPnyXNCN5L0e7HHBjTavVD3bw63WumVjFAEuS6M+Tm4gRcHBKDi6/H4IpvLKhyTpGytQJHvtICuXCihPlZxXDLd1xtWuH2dz6Qb7YYAFL9BvDdQqD7KnRGzzX6dfJzk0FUPKOnE5pyR2SiOhSXToT3jH0I2NFJP8xk3ifbFEvihbqxJQLhcIk+EKpaxsL4+a04XHeT47qnHNAs17bJ8FvbDJz7Vomfj2/R3kPx8/9h+QwpHPUwH8jJra8amR1DgY5iXSAd20yfJWVqnWjlNAe0yXDqYAqyc7RhrEf2GvhvvazzMMmn3RwYBQKh7qQqgWt2q4GkaF3WrznxNIyLQ2Nx3V3O9pZRZUYa5qwBQpqf9YBsMQJEbfihiIHxwwrTZ8XhQUBLtM4N/FKXTJc73DU6kbwQvqtP6zxEYpFfmD870nmhLom0+C4v65AKAbtu0X87njNDfolngFx+L4GFcd1Lf1VRz2qH/dliINsLnP7KB3Jis2lAVOVPAb8coVvyTRPtoTptNj0tumVx18hceM+vRMDuW3owiGVzwlRTTCjUzTykf13EAWEgtxRJ+On9GFwdmcQC6VwoMjtI9UDzQWt2vd/yGTJv9EP6eYiJQIg1eZqeV7TGsTeg3ClHjEwt2GHj4ZW3C/6f3xQEIRSmWhrqEvckWNvazQCJS9EPe2/OTMT1kGR0LhQulaDBg1mHaQxkXjvmZ/kxHTvWDP9fq4AQPTDFvTV4sDeh2CjXrtplLIf/xguiIDRGhNnaUFdWZkjwKQZIsumJIZpDoDr0ClQVLwCNAdrXK6wAUlw08kGrMnWToD3JCvjVmmT4hGfCNWw8fD/50igIjeXWWBfqCgUEZMaRWcPMEAZIrClAWqKhqnpL2xXfGgdV7WigSQ2l3vl/LAayc7b7A3YHcvg19mZ2rmJ2Tnnl7zMZBrfmZGmoS2YL/xqiSew1JgFJAOqc6Q+YqvpdoCUGqHdnNLSKJLXqZrnmkZZvmV4/d9R/8YF8tcnG6+bV77A3VfgR00nis/xrk4GQKMjaUJfoCf86/kIVeV8xMpHiYqMvVBXPQXV4MNm2xrirw69om7OVUkAZzlxb5fIXi4HsznW93/5A3mVvbMkcBojvypMmwRgnIMTmhrqhAqGukEtjgPBmSHMoVIdfharieaDRW8BdxdJ7SGi33BxiPZDieX5/7lUgc9PNAkIWlKwNdQkg/nUk49cDEprNAZJIv286tKd3T8Vr3RXZxNMSB9ST6OppTg1OXRBtcPqrxUD2f/zkn/SAbLSfy1piJpCpNdaFuoF7Vciv14cWvE9ohmTTHSqavILRiVjGXZWr3RVxTU2BUB16Udv7pQyH6vDr9HX071Y6/81iIM1Fr/07H8ixTYPtBmTpXLXLWnHCKAzpAetDXaEZxu864QKJSsrkuatBanflByjV7krT+9WicVekFDRaWwqyBkixn+RePhDSLWhvUfc1AUiGmWIupAtC4TIfmtZl5WiBtCYw7qrehQ1r6QdP7zmMpYGQn7PuiugL2yk56uE7DkjgXmYN3JpQV6j2RcrupPwuCCQsh64yazSEfvCN3nSVQVU5hNlLwnVXpAWpOUw7i4g7I7971O3vFgMBJP/GB2LzdtGqt80OexNKzQ912SRPbTkCoa68XPxvkhKOFkgS/dDJEjWBgJYIejaw7koZw3NXcZxa1phHJNYMPSC2niEcIMtMBKLpBjHViHvjdyPyQ13yb34LqSgQogd1bgLuikRbY5loq+otJjlsYGYRrTPkd6vdH7UKCL/B+sin9gfiu/y46IMhYau5Ys4PdUk3orEITN9ljUdEAkfU6aKhJgsn7ioAqgqNuwrm5Sh+nPK7i3WHZ/Ib5WwP5C32zX4yzzgQobzBkE2sEu5G5F8XU2IMyASEc2YIWzRUEnc1RO2uPDjRFclRnJmchPy30Z/53cMeA2wKpG3D6zYWde0MKZpvGAj9MM0U85iDwt2IXMs3IOY6QLgzhM7CndTJoJOAu4oFGrzUoj9UqyFVrg5WAeGfgWtzIJwZUjSfSQx9ir4SfChxAuvdhiyv1jT9IS7MWJhNtitogSQyYS3trqK07oqseCo1taxX1bOI466sjbLIIMdxc4G0WrLF2EwgviJA+OvdxoyscRirDBMxJ/UsY0BIQwXZc6iJsuiduhp3VaFxV9FMSUXjrnh9AVDGUBJrBzmnqreALF+QJgpEKDIyN9TldiNqjEA2BkMDJIwFItMWDevG0IminrsSqApTjePabQ6kxY5AVrBAjuk9EKHIyJxQV2yZl7hB84Ekqh98tLr0/jyzrtMsNdLg4JJqAyC6Lsv4NmNzgbxpFEjgHhWm11kX6vK7EWkxrzcu5qyGhE9CWFwWp5YVDlXl61p3ZWwl0Razgwz+djbluiF2B+LziS4QEpKaA4PvhoS6EYU63g3OkPBJCI3ThL1JjLuqFdAJIVeljOhC/ajHbjsgKxeqZwhvPV1oRc+cUFeoG1FoFhkGMlkLRL12bnRWEGsKuoDDo63LPbiDf1KDTc+fooG8wb75VR/rAzFXzEmoG2hCdDa52nQYATu76OKiWV0nysgu1LnZ/nRrPhCxs61sCcRn2VH2YZCCnzWhrlA3IjGSIJoKxHtuBf2+Fs9JNw6iJU6FBo/9qHZ/QGKPQQ6W7EsgebXWhbpC6yakdE9K+MZA+O/ohHfBAXotxDcii94mJw4jkZRHjqNu7HN2ASEKZK39gKzmARFqzzFkmQKhrlATBD8k1rPdFHwK2+AeV0C/H9LO2rTDQN9uc/Bl1Dp72RUEC4R3yEuj+msgegPIeDPFnCzrGutGJEYydjEY5FwTcuAM3cYamkVvHL1YKTIzmiO6UPvBrF4BoQWi+/UQmu/lsJmRZU71Da7RiPqyI3SjgTliLpRxC21PILUsQRDF1+CVu41eO9ccNHN8X4qIYMcyOmFNW6ilw9feQDgzZO2iVBaIuZtv+OVzMXdHVht1YOzqobvq3SKm0H+bJH/kkAGyiVQfRhKjEzWuffeFk3pA1rxhYyDD9ID4FB4xa/ONUKgrlLvwuxZJzcw9fib9Nz2lWXRx80ajAZ2oGd333wXC/+azensCWcy4LOmqY2bNDn5jm1A3Ilf0/Tb+CM+slew9TctNx4VDKeI6UefyoaS/DP8I3RlSZ86BkmYCWbeYmSHpW09YFeqSkoigmO+6Qe81IUmeZgNOs1j0ROuE52eoGP6fkv40ouITu+wKhN45pQsk24STF8RCXaEWIXLITMr6NvaovnExWfTuLHIojZBOUI0BR1E7+klJfxzzc/22cBsd6la/YTcg65ekmQ2EH+ryuxEn7j6LgIzF9P+XHMtEGrrJvkVh9xTyE2rGukj6+1g32zU+OTn6htln4FoIJKv4pMWhrqYbcVrZNUQUbGM/SJMmpeP7UgM6UTv29vryYdLnuzTfa23DGlvnIUMEgJwwCQip4vK7EclRSrLlVXCTTlRvIchAVbGITrTEUmjwKsZ+5z9JbtfRdfCxDnvNkA1mANFv+6QQuaoN3vEzmFwmIos+FahbKaITDb5tqBppXQdIfxiUwvGsvYB8ulStISYA4Ya6fmt/gLuc0Qmid+T8kys1YjoRdAE1I50kd8qgFA519gaStfVrgzA0GzL9i6/Cc/IWejMNHS5nZeDEfmGdoJQRnWhwy5HcaQPlDq9RCsdue2jIp4WpJgHJKu+G15xyelmVTiTjM+mzsgTLHYxObLHqSIv+PlD7z4dQNmA/VeqosiWQjYXMDMk0ACTr89PwTpzNlFjCM+lyCzlFTlQnbLl82t8HKgYMpkocT/cGkKlf/ITgSat0yh2iZfGm4B9RP3qE5I86oHCMp0odblgEhOy/Uz/ITWqXlbFZW8siJ8NFz9sLt9Ac9rjvY3tFdKJZehN1ril9/Tz6xUCu5D4oHIoohQNl3gzRAtm8LJU9QXRqySXIVtbDMyqXeS0uEyUbRHSiNZZCvcf2O1onLB0oG+hIKQbWWQLk0Ga5zuqkpixOFq4Ey+KtiYxOKKzcc/FHGCgfOOZWqcNPxoEM1jmSKS9X2wc2PTcdHWJlcaITjSOH9/V93nYDZQ6TKYVDlylAoDbS3fFTlYhgK6U30DA2ua/v67YeaH7tfpQO2E4pBMJksuFerJujjSPYLdEU6t033NUJW4LZ6/gKpRh43CwgrXd1wu4DCsdwqtThOgNkkDiMxoB2VDm/bf93dHeQPfD3oNRxOcqf7tb7StNm6W+oc068+5j6YKDkmUep2g8qKWUMRSnDbqDebRngd+9dGHeHpD+M/wdHhB5+2MiBVwAAAABJRU5ErkJggg==">
+        <h1>FTP TV</h1>
+    </div>
+
+    <div style="display: none;" id="item_template">
+        <button onfocus="ON_FOCUS(this, '$$$focus_pos')" id="$$$id" class="item">
+            <div class="banner_holder">
+                <img src="$$$banner_url" loading="lazy">
+            </div>
+            <span>&nbsp;&nbsp;</span>
+            <div class="detail_holder">
+                <div class="tag"><span class="$$$tag_color">$$$tag_text</span></div>
+                <b class="title">$$$title_text</b>
+            </div>
+        </button>
+    </div>
+
+    <div style="display: none;" class="root">
+        <button class="item">
+            <div class="banner_holder">
+                <img src="http://172.16.50.9/DHAKA-FLIX-9/Anime%20%26%20Cartoon%20TV%20Series/Anime-TV%20Series%20%E2%99%A6%20%20N%20%20%E2%80%94%20%20S/Oddtaxi%20%28TV%20Cartoon%202021%E2%80%93%20%29%201080p/a_AL_.jpg">
+            </div>
+            <span>&nbsp;&nbsp;</span>
+            <div class="detail_holder">
+                <div class="tag"><span>TV Show</span></div>
+                <b class="title">Oddtaxi (TV Cartoon 2021- ) 1080p</b>
+                <span class="sub-title">* Season 1</span>
+                <span class="sub-title">* Season 2</span>
+            </div>
+        </button>
+        <button class="item">
+            <div class="banner_holder">
+                <img src="http://172.16.50.9/DHAKA-FLIX-9/Anime%20%26%20Cartoon%20TV%20Series/Anime-TV%20Series%20%E2%99%A6%20%20N%20%20%E2%80%94%20%20S/Oddtaxi%20%28TV%20Cartoon%202021%E2%80%93%20%29%201080p/a_AL_.jpg">
+            </div>
+            <span>&nbsp;&nbsp;</span>
+            <div class="detail_holder">
+                <div class="tag"><span class="red">TV Show</span></div>
+                <b class="title">Oddtaxi (TV Cartoon 2021- ) 1080p</b>
+                <span class="sub-title">* Season 1</span>
+                <span class="sub-title">* Season 2</span>
+            </div>
+        </button>
+        <button class="item">
+            <div class="banner_holder">
+                <img src="http://172.16.50.9/DHAKA-FLIX-9/Documentary/Alien%20Worlds%20%28TV%20Documentary%202020%29%20720p/000.jpg">
+            </div>
+            <span>&nbsp;&nbsp;</span>
+            <div class="detail_holder">
+                <div class="tag"><span class="orange">TV Show</span></div>
+                <b class="title">Oddtaxi (TV Cartoon 2021- ) 1080p</b>
+                <span class="sub-title">* Season 1</span>
+                <span class="sub-title">* Season 2</span>
+            </div>
+        </button>
+        <button class="item">
+            <div class="banner_holder">
+                <img src="http://172.16.50.9/DHAKA-FLIX-9/Anime%20%26%20Cartoon%20TV%20Series/Anime-TV%20Series%20%E2%99%A6%20%20N%20%20%E2%80%94%20%20S/Oddtaxi%20%28TV%20Cartoon%202021%E2%80%93%20%29%201080p/a_AL_.jpg">
+            </div>
+            <span>&nbsp;&nbsp;</span>
+            <div class="detail_holder">
+                <div class="tag"><span class="green">TV Show</span></div>
+                <b class="title">Oddtaxi (TV Cartoon 2021- ) 1080p</b>
+                <span class="sub-title">* Season 1</span>
+                <span class="sub-title">* Season 2</span>
+            </div>
+        </button>
+        <button class="item">
+            <div class="banner_holder">
+                <img src="http://172.16.50.9/DHAKA-FLIX-9/Anime%20%26%20Cartoon%20TV%20Series/Anime-TV%20Series%20%E2%99%A6%20%20N%20%20%E2%80%94%20%20S/Oddtaxi%20%28TV%20Cartoon%202021%E2%80%93%20%29%201080p/a_AL_.jpg">
+            </div>
+            <span>&nbsp;&nbsp;</span>
+            <div class="detail_holder">
+                <div class="tag"><span class="blue">TV Show</span></div>
+                <b class="title">Oddtaxi (TV Cartoon 2021- ) 1080p</b>
+                <span class="sub-title">* Season 1</span>
+                <span class="sub-title">* Season 2</span>
+            </div>
+        </button>
+    </div>
+
+    
+
+    <div style="display: none;" id="search_base">
+        <div class="s_top bg-color">
+            <input class="s_input" placeholder="Search">
+            <button class="s_btn blue">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGCElEQVR4nO3dbYhVRRzH8ak1K0ONkKgMcZG13hgU9KoMK0kxUyqWoFCMojTqtUXJWhmoQYj2QKK0JkhFQU8QGRJoBT0ZmFCZViYSGGlSV1LTbwx3InPvLntn5twz58zvA73tnpn57zgP/5kxRkRERERERERERERERERERERERCQdwBnABGAacBswD1gIPAjcDfQC04EeYETZ3yuBgIuBu4B1wHagwfAdA74FXnFBcpkapAKA8cBiYAfx/Qw8DUwpu5xyGuAm4H3gBJ2xHVgAnKXGKBEwF/iM8vwILAJGKhA62/A97i8+Fd8DMxQExTf8SGAZcJQ0bQLGKRCKaXw7hfuE9O0DpioI4jb+HOAQ1XHczkYUBHEaf4Gr0Cp6SYtKYY1v5/RV9yZwrnqD9hu/j/p4Rz1Be41/P/Wz0e5HqCcY3oDvb+rpCQXA0I3f3aHR/mFgN/CF++874EAHfvcEMFNBMPgiz6cFVfxOYCUwC7hkiAC8wM7hgSXANuBkAd9iA228gmBg5T8VuaL/AtYCV/lWNjAReBL4LfK3bVYA/L+iL4+4vGv/atfH/CsDRrtZyRHiuUNB8F8Fb4lUqXuAa4qqWGASsDXSt+4HxmQfBG5LN4a3gPOLrlBgBLAi0jcvUwDE2eDp+JIrzTzC4xFmI4UHbeqZPKFeLPH750WYKTxmchUhqcN2+10VX7I+kGVGkUvgDFnx22vn7Ymkm78dGARzTW4Cd/pOFjnabxdwIXAwoDyvm9wEpm6vN4mhmRwasmg11mR2aMOXPbQxwSQG6AJ2BZRrjskFcGdARa01iQLuCSjXKpMLd1zLl/faftGAUW5u72OHyQXwlWcl7TSJo7ko5btVXP/UMTdt+tOzklaaxNE8ZexrSi75/b5mmcQB4wJWB3tN3QHXBwTAoMkcKaF5ktjHw6bugFs9K+ewqQjgA88yLjd1B8z3rJxdpiJoZgD7eM7UHfCAZ+V8aSoCeN6zjC+bugMe8qycz01FAGs8y7jJ1J1LpPDxjakIoN+zjOtM3QG3e1bOr6YigHc9y7ja1F1gFlDp+//DEbAp9KipO2ByQABcZxIHnBeQKzjf1J3LqrVbuj6WmMQBM/CXx80idkDnWUHbTOKAZzzLdjKbpBDg1YBK6jaJopkUYg98+NhjcuGuX63dEWtgdkC5Nphc2Lt3AyrKHtQcbRIEfBRQrvoPACPtmFl9JjHAzQHlsckgF5mcuIuXQ7JoJ5tEAGe7SyZ8bTG5sdkvhNmayr3+wOrAstxncuRu3Q6xouIpYLgk0iTHNJ26BDLUohK//9oIl0bUf/1/MPa+fXflegh7vvDekhr/UOC32xXRiSZngUeqTl0g6uvUPXw0u/0jVT7antrtYL5Lw6d7zx7ULPBbz4kw4PvXH8ClRX1rpQA3Es9B16t0FTDP3x3xOx+J+X2V5x5biP2Khz2rNypwbX828DHx6YWRFgcq7GMLsR12x7V6h/Oah9vPn+l29fZTHPuM3TTf4Kwld0tn0W8D7HV5+zZ1+wWXwNnv0rh2dfhtgoaCoJ5vBLRDQdAiCGKNtKsUBDd0qqdNHnAm8Bp5aSgIBs657TVwOWloTDBwGmZv/M5JQz3BwAslHi/o7v5UNdQTtF4t/IV8NNQTtL5ddDP5aKgnaD1LuCUwp7CIhloKTHebPLH/35oitgiCMe4h6d8pzzG7pXvqrp79i3WNFpN6giHWDMbaK9c79OrXqfsLawZL5lAQlJdXYF8fecNlDcd2AvjQJnAOJ4dPQVB+r2AfoFwFfO0az/cNog3uXqO28/YVBGmtKl7htoTtZtNytxO40S0523/Hn7Xn811jT411UBONCYRmAqlmBzlDQSAoCAQFgaAgEBQEQnFTxKtVu3kHwT49TF0hFBMES8sul5Q7Jvipnd+XevYE48suk5QbBFe2+/tSr38Oussui5TXExxK5RItKScI+n1/V6ofBEeBnrK/XcobEyyM9duSCDuid3cbDMXebbC47G+VYlPh7fmDH1oM+PpTuj5XCmaf0XW9wiSN9kVERERERERERERERERERETEtOMfFGZWdJbE+owAAAAASUVORK5CYII=">
+            </button>
+        </div>
+        <div id="list_parent" class="s_main root">
+
+        </div>
+    </div>
+
+    
+    <div style="display: none;" id="episode_list_base">
+        <div class="dim">
+            <div id="episode_list_main" class="bg-color-light">
+                <span id="episode_list_show_title">Show name iioi</span>                
+                <div id="season_block_base">
+                    <div class="season_block">
+                        <span class="season_title">S22</span>
+                        <div class="episode_list">
+                            <button class="episode_chip">EP10</button>
+                            <button class="episode_chip">EP2</button>
+                            <button class="episode_chip">EP3</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: none;" id="screen_home">        
+        <div id="screen_home_watch_history">
+            <b style="font-size: 25px;">Browse shows</b>
+            <div style="justify-content: flex-start;" class="root">
+                <button onfocus="ON_FOCUS(this)" onclick="ShowSearchBase('tv_series')" class="show_card blue">
+                    <span>TV Series</span>
+                </button>
+                <button onfocus="ON_FOCUS(this)" onclick="ShowSearchBase('movie')" class="show_card red">
+                    <span>English Movies (1080p)</span>
+                </button>
+                <button onfocus="ON_FOCUS(this)" onclick="ShowSearchBase('movie_low')" class="show_card purple">
+                    <span>Movies</span>
+                </button>
+                <button onfocus="ON_FOCUS(this)" onclick="ShowSearchBase('anim_series')" class="show_card cyan">
+                    <span>Anime Series</span>
+                </button>
+                <button onfocus="ON_FOCUS(this)" onclick="ShowSearchBase('anim_movie')" class="show_card green">
+                    <span>Anime Movies (1080p)</span>
+                </button>
+                <button onfocus="ON_FOCUS(this)" onclick="ShowSearchBase('anim_movie_low')" class="show_card orange">
+                    <span>Anime Movies</span>
+                </button>
+            </div>
+        </div>
+        <div style="display: _none;" id="screen_home_watch_history">
+            <b style="font-size: 25px;">Recenty watched</b>
+            <div style="justify-content: flex-start;" id="screen_home_watch_history_list" class="root">
+                
+                
+            </div>
+            <div style="display: flex; justify-content: flex-end;"><button onclick="ShowAllHistory()" onfocus="ON_FOCUS(this)"  class="blue" id="screen_home_show_all">Show full list</button></div>
+        </div>
+    </div>
+
+    <script>let DATA = {};</script>
+    <script src="js/anim_movie.js"></script>
+    <script src="js/anim_movie_low.js"></script>
+    <script src="js/anim_series.js"></script>
+    <script src="js/english_movie.js"></script>
+    <script src="js/english_movie_high.js"></script>
+    <script src="js/tv_series.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

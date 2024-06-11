@@ -1,0 +1,69 @@
+#episode_list_base{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dim{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#episode_list_main{
+    height: 70vh;
+    width: 70vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+#episode_list_show_title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#season_block_base{
+    flex: 1;
+    width: 100%;
+}
+
+.season_block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.season_title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.episode_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.episode_chip{
+    height: 50px;
+    min-width: 80px;
+    border-radius: 1000px;
+    background-color: rgba(255, 255, 255, 0.228);
+    margin: 7.5px;
+    font-weight: bold;
+}

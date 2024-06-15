@@ -230,6 +230,16 @@ function ShowSearchBase(type){
     document.getElementById("screen_home_show_all").style.display = "block"
     LAST_HOME_FOCUS = LAST_FOCUS;
     LIST_DATA.parentEle = LIST_PARENT
+    if(type == "documentary"){
+        LIST_DATA.tag_txt = "Documentary"
+        LIST_DATA.tag_color = "cyan"
+        LIST_DATA.data = DATA["documentary"];
+    }
+    if(type == "documentary_series"){
+        LIST_DATA.tag_txt = "Documentary Series"
+        LIST_DATA.tag_color = "cyan"
+        LIST_DATA.data = DATA["documentary_series"];
+    }
     if(type == "anim_movie_low"){
         LIST_DATA.tag_txt = "Anime Movie"
         LIST_DATA.tag_color = "green"
